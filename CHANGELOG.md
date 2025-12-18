@@ -3,15 +3,34 @@
 See all notable changes to this project documented in this file.
 
 ## [Unreleased]
+- Improve the CSS design
+- Improve the web accessibility
+
+## [0.0.2] - 2025-12-18
+
+## Added
+
+- `ref` function to reference data in the database
+- `push` function to update the database
+- `onValue` function to listen the change made on the data referenced in the database
+- `remove` function to delete the data referenced in the database
+- `title` to name the app
+- `meta` data name **viewport** to adjust size of the content in the window app
+- **favicons** to create shortcut with different dimensions
+- **site.webmanifest** to configure the progressive web app for mobile
+
+### Deprecated
+
+- The file **manifest.json** to configure the chrome extension
 
 ## [0.0.1] - 2025-12-17
 
 ### Added
 
 - The CHANGELOG file, index.css, index.html, index.js, manifest.json, README.md
-- Initiate the Firebase app configuration
-- Initiate the Firebase app import of code
-- Initiate the Firebase app initialization
+- Firebase app configuration
+- Firebase app imported code
+- Firebase app initialization
 
 ### Deprecated
 - The tab implementation 

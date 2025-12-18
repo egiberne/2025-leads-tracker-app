@@ -17,7 +17,10 @@ Here are technologies
 ## 📚 Built On
 Here are the JavaScript concepts
 
-- [x] Leverage Firebase database
+- [x] Leverage Firebase database functions
+- [x] Transform Object to array
+- [x] Use Import function to add external code
+- [x] Modify the Web Application Manifest
 
 ## 📺Demo
 

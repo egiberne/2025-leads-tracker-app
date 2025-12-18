@@ -2,7 +2,7 @@
 
 // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
-  import { getDatabase } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-database.js";
+  import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-database.js";
 
 
 // Your web app's Firebase configuration
@@ -15,6 +15,7 @@
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const database = getDatabase(app)
+  const referenceInDB = ref(database, "leads")
 
   console.log(database)
 
@@ -57,11 +58,17 @@ deleteBtn.addEventListener("dblclick", function() {
     localStorage.clear()
     myLeads = []
     render(myLeads)
+    remove(referenceInDB)
+    ulEl.innerHTML = ""
 })
 
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
+    push(referenceInDB,inputEl.value)
     inputEl.value = ""
     localStorage.setItem("myLeads", JSON.stringify(myLeads) )
     render(myLeads)
+
+    push(referenceInDB, inputEl.value)
+    inputEl.value = "" 
 })
