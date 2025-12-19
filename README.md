@@ -26,10 +26,10 @@ Here are the JavaScript concepts
 
 
 ### 🔍 Preview
-![Video about using the app to convert 100](./image.gif "How to use the Unit Converter?" )
+![Video about using the Leads Tracker App](./image.gif "How to use the Leads Tracker App?" )
 
 ### 🎮 Live
-[Unit Converter](https://.netlify.app/)
+[Lead Track App](https://2025-leads-track-app.netlify.app/)
 
 ## Status
 ![Status](https://img.shields.io/badge/status-active-brightgreen)

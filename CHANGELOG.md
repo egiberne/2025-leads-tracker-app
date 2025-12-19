@@ -5,6 +5,15 @@ See all notable changes to this project documented in this file.
 ## [Unreleased]
 - Improve the CSS design
 - Improve the web accessibility
+- Implement a footer section
+- Implement a header section
+
+## [0.0.3] - 2025-12-19
+
+## Changed
+- Update favicon references in the HTLM file
+- Update icons refences
+- Update URLs to point the page hosted on Netlify 
 
 ## [0.0.2] - 2025-12-18
 
@@ -27,7 +36,7 @@ See all notable changes to this project documented in this file.
 
 ### Added
 
-- The CHANGELOG file, index.css, index.html, index.js, manifest.json, README.md
+- CHANGELOG file, index.css, index.html, index.js, manifest.json, README.md
 - Firebase app configuration
 - Firebase app imported code
 - Firebase app initialization
